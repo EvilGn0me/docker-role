@@ -1,0 +1,10 @@
+---
+docker:
+  repos:
+    zabbix:
+      name: 'docker'
+      baseurl: 'https://download-stage.docker.com/linux/centos/7/$basearch/stable'
+  packages:
+    - docker-ce
+  services:
+    - docker
